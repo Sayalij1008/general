@@ -6,7 +6,6 @@ pipeline {
             steps {
                 echo 'Hello World'
            }
-            
         }
         
 			stage ("Stage-2"){
@@ -16,7 +15,6 @@ pipeline {
 				    echo "Hello World two"
 				
 				}
-			
 			}
 		stage ("Stage-3"){
 			
