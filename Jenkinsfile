@@ -18,6 +18,16 @@ pipeline {
 				}
 			
 			}
+		stage ("Stage-3"){
+			
+				steps {
+				
+				    echo "Hello World three"
+				
+				}
+			
+			}
+		
     }
 }
 
